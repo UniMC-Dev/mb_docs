@@ -1,1 +1,0 @@
-import{_ as o,c as l,o as a,ae as r}from"./chunks/framework.NcZqgvTs.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/trchat.md","filePath":"docs/trchat.md"}'),e={name:"docs/trchat.md"};function i(n,t,s,c,d,g){return a(),l("div",null,t[0]||(t[0]=[r("",14)]))}const u=o(e,[["render",i]]);export{p as __pageData,u as default};

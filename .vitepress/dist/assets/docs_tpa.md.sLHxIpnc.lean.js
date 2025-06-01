@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as d,ae as s}from"./chunks/framework.NcZqgvTs.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/tpa.md","filePath":"docs/tpa.md"}'),h={name:"docs/tpa.md"};function o(i,a,n,p,r,l){return d(),e("div",null,a[0]||(a[0]=[s("",33)]))}const g=t(h,[["render",o]]);export{b as __pageData,g as default};
