@@ -3,6 +3,9 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "MCBUCKET 文档站",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]  // ← 设置 favicon 图标
+  ],
   description: "MCBUCKET 服务器文档",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
