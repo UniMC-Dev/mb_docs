@@ -1,0 +1,1 @@
+import{_ as e,c as l,o as t,ae as o}from"./chunks/framework.NcZqgvTs.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/flyplus.md","filePath":"docs/flyplus.md"}'),r={name:"docs/flyplus.md"};function i(s,a,n,d,c,h){return t(),l("div",null,a[0]||(a[0]=[o("",10)]))}const _=e(r,[["render",i]]);export{f as __pageData,_ as default};
