@@ -1,0 +1,7 @@
+{
+  "name": "mb-docs",
+  "dompatibility_date": "2025-07-09",
+  "assets": {
+    "directory": "./dist" 
+  }
+}
