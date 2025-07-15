@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { SearchPlugin } from 'vitepress-plugin-search'
+import flexsearchIndex from 'vitepress-plugin-search/index.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,11 +9,21 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }]  // ← 设置 favicon 图标
   ],
   description: "MCBUCKET 服务器文档",
+  vite: {
+    plugins: [
+      SearchPlugin({
+        previewLength: 50,
+        buttonLabel: '搜索文档',
+        placeholder: 'Ctrl + K 或输入关键词...',
+      })
+    ]
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/favicon.ico',
     nav: [
       { text: '首页', link: '/' },
-      { text: '插件文档', link: '/docs/introduction' }
+      { text: '指南', link: '/docs/introduction' }
     ],
 
     sidebar: [
