@@ -1,14 +1,36 @@
 {
   "devDependencies": {
     "@types/dom-view-transitions": "^1.0.6",
+    "@vue/cli-service": "~5.0.0",
     "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "^1.6.3",
-    "vitepress-sidebar": "^1.32.1",
-    "@vue/cli-service": "~5.0.0"
+    "vitepress-sidebar": "^1.32.1"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
-  }
+  },
+  "dependencies": {
+    "ansi-regex": "5.0.1"
+  },
+  "name": "mb_docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniMC-Dev/mb_docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/UniMC-Dev/mb_docs/issues"
+  },
+  "homepage": "https://github.com/UniMC-Dev/mb_docs#readme"
 }
