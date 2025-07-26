@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as n,ak as p}from"./chunks/framework.H0Nr3XDA.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/lp.md","filePath":"docs/lp.md"}'),h={name:"docs/lp.md"};function t(l,s,e,k,d,r){return n(),a("div",null,s[0]||(s[0]=[p("",31)]))}const o=i(h,[["render",t]]);export{g as __pageData,o as default};
